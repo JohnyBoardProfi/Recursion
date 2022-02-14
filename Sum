@@ -4,7 +4,7 @@ namespace Sum
 {
     class Program
     {
-        static ulong Sum(ulong n) => n == 0 ? 0 : n + Sum(n - 1);
+        static ulong Sum(ulong n) => n == 0 ? 0 : n + Sum(n - 1); // Gauss method is more efficient.
 
         static void Main(string[] args)
         {
