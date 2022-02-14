@@ -11,7 +11,7 @@ namespace DoubleFactorial
         static void Main(string[] args)
         {
             Console.WriteLine();
-            double num = Convert.ToUInt64(Console.ReadLine());
+            double num = Convert.ToDouble(Console.ReadLine());
             Console.WriteLine(DF(num));
             Console.ReadKey();
         }
