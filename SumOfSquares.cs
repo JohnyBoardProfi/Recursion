@@ -4,13 +4,13 @@ namespace SumOfSquares // 1^2 + 2^2 + 3^2 + ... + n^2
 {
     class Program
     {
-        static double F(double n) => n * (n + 1) * (2 * n + 1) / 6;
+        static double SumOfSquares(double n) => n == 1 ? 1 : Math.Pow(n, n) + SumOfSquares(n - 1);
 
         static void Main(string[] args)
         {
             Console.WriteLine();
             double num = Convert.ToDouble(Console.ReadLine());
-            Console.WriteLine(F(num));
+            Console.WriteLine(SumOfSquares(num));
             Console.ReadKey();
         }
     }
