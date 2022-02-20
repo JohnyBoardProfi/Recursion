@@ -1,6 +1,6 @@
 using System;
 
-namespace Power // a^b without using Math.Pow
+namespace Power // a ^ b without using Math.Pow
 {
     class Program
     {
